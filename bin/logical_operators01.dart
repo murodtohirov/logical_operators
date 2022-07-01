@@ -9,5 +9,19 @@ Given three integers a, b, c,  check the following statement "The number b is be
     Returns:
         bool: answer
 */
+bool func(int a, int b, int c) {
+  int a = 7;
+  int b = 5;
+  int c = 4;
 
-void main() {}
+  bool x, y;
+
+  x = a >= b;
+  y = b >= c;
+
+  return (x && y);
+}
+
+void main() {
+  print(func(7, 5, 4));
+}
