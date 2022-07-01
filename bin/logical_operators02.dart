@@ -14,7 +14,7 @@ bool func(int a, int b) {
   if (a > 0 && b > 0) {
     return true;
   }
-  if (a < 0 && b > 0) {
+  if (a < 0 && b < 0) {
     return false;
   }
   return false;
