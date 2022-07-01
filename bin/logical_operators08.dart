@@ -8,5 +8,19 @@ Create a function argument  called a, b of type int
     Returns:
         bool: answer
 */
+bool func(
+  int a,
+  int b,
+) {
+  if (a % 2 == 0 && b % 2 == 0) {
+    return true;
+  }
+  if (a % 2 > 0 && b % 2 > 0) {
+    return false;
+  }
+  return false;
+}
 
-void main() {}
+void main() {
+  (func)(4, -6);
+}
