@@ -18,9 +18,8 @@ bool func(
   if (a % 2 > 0 && b % 2 > 0) {
     return false;
   }
-  return false;
 }
 
 void main() {
-  (func)(4, -6);
+  (func)(4, -3);
 }

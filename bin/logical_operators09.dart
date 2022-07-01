@@ -8,5 +8,17 @@ Given two integers a, b,  check the following statement "At least one of the num
     Returns:
         bool: answer
 */
+bool func(int a, int b) {
+  if (a % 2 == 0 && b % 2 == 0) {
+    return true;
+  }
+  if (a < 0 && b < 0) {
+    return false;
+  }
 
-void main() {}
+  return false;
+}
+
+void main() {
+  print(func(-7, 8));
+}
