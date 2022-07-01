@@ -8,5 +8,19 @@ Given two integers a, b,  check the following statement "Each of the numbers 'a'
     Returns:
         bool: answer
 */
+bool func(
+  int a,
+  int b,
+) {
+  if (a % 2 == 0 && b % 2 == 0) {
+    return false;
+  }
+  if (a % 2 > 0 && b % 2 > 0) {
+    return true;
+  }
+  return true;
+}
 
-void main() {}
+void main() {
+  print(func(9, 7));
+}
